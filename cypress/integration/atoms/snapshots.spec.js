@@ -31,7 +31,7 @@ describe('ATOMS', () => {
       .percySnapshot('Card', percySnapshotConfig);
   });
 
-  it.only('<Dropdown />', () => {
+  it('<Dropdown />', () => {
     cy.getByText('Dropdown')
       .click()
       .percySnapshot('Dropdown', percySnapshotConfig);

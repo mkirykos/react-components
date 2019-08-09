@@ -17,9 +17,6 @@ describe('MOLECULES', () => {
     cy.getByText('DropdownField')
       .click()
       .percySnapshot('Dropdown Field', percySnapshotConfig);
-      .getByLabelText('Your cool dropdown ❤')
-      .click()
-      .percySnapshot('Dropdown Field [open]', percySnapshotConfig);
   });
 
   it('<DropdownFiltered />', () => {
