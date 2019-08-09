@@ -1,6 +1,10 @@
 # NPM #
 node_modules
 
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
 # Used to test the build process
 styleguide/*
 !styleguide/styles/
@@ -10,3 +14,5 @@ dist
 coverage
 
 yarn-error.log
+
+

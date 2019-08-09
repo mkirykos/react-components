@@ -52,7 +52,7 @@ module.exports = {
       ignore: 'src/content/**/*constants.{js,jsx,ts,tsx}',
     },
     {
-      sectionDepth: 1,
+      sectionDepth: 2,
       name: 'Components',
       content: 'src/components/README.md',
       components: 'src/components/*/*.{js,jsx,ts,tsx}',
@@ -164,6 +164,5 @@ module.exports = {
   webpackConfig: require('react-scripts/config/webpack.config.dev'),
   // props table config
   usageMode: 'expand',
-
   skipComponentsWithoutExample: true,
 };

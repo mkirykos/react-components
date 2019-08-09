@@ -57,7 +57,7 @@ import { DropdownFiltered } from '@zopauk/react-components';
 const items = [{ value: 'apple' }, { value: 'pear' }, { value: 'orange' }, { value: 'grape' }, { value: 'banana' }];
 
 <DropdownFiltered
-  label="Fruits"
+  label="Fruits 2"
   items={items}
   name="fruit-default"
   defaultSelectedItem={{ value: 'orange' }}
@@ -129,7 +129,7 @@ const items = [
 ];
 
 <DropdownFiltered
-  label="Nationality"
+  label="Select a Nationality"
   items={items}
   name="nationality-default"
   onChange={selection => selection && console.log(`You selected ${selection.alpha2}`)}
@@ -149,7 +149,7 @@ import { DropdownFiltered } from '@zopauk/react-components';
 const items = [{ value: 'apple' }, { value: 'pear' }, { value: 'orange' }, { value: 'grape' }, { value: 'banana' }];
 
 <DropdownFiltered
-  label="Fruits"
+  label="Fruits 3"
   items={items}
   name="fruit-error"
   onChange={selection => selection && console.log(`You selected ${selection.value}`)}
@@ -169,7 +169,7 @@ import { DropdownFiltered } from '@zopauk/react-components';
 const items = [{ value: 'apple' }, { value: 'pear' }, { value: 'orange' }, { value: 'grape' }, { value: 'banana' }];
 
 <DropdownFiltered
-  label="Fruits"
+  label="Fruits 4"
   items={items}
   name="fruit-isValid"
   onChange={selection => selection && console.log(`You selected ${selection.value}`)}
@@ -189,7 +189,7 @@ import { DropdownFiltered } from '@zopauk/react-components';
 const items = [{ value: 'apple' }, { value: 'pear' }, { value: 'orange' }, { value: 'grape' }, { value: 'banana' }];
 
 <DropdownFiltered
-  label="Fruits"
+  label="Fruits 5"
   items={items}
   name="fruit-disabled"
   onChange={selection => selection && console.log(`You selected ${selection.value}`)}
@@ -210,7 +210,7 @@ import { DropdownFiltered } from '@zopauk/react-components';
 const items = [{ value: 'apple' }, { value: 'pear' }, { value: 'orange' }, { value: 'grape' }, { value: 'banana' }];
 
 <DropdownFiltered
-  label="Fruits"
+  label="Fruits 6"
   items={items}
   name="fruit-sized"
   onChange={selection => selection && console.log(`You selected ${selection.value}`)}
