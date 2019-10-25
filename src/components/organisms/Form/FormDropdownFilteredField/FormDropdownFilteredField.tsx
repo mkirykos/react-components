@@ -4,6 +4,9 @@ import DropdownFiltered, { IDropdownFilteredProps } from '../../../molecules/Dro
 import { useFieldContext } from '../context';
 
 interface IFormDropdownFilteredFieldProps extends IDropdownFilteredProps {
+  /**
+   * The "value" attribute applied to the native input element
+   */
   name: string;
 }
 

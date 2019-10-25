@@ -2,7 +2,13 @@ import React from 'react';
 import { colors } from '../../../constants/colors';
 
 export interface IZopaLogoProps extends React.SVGProps<SVGSVGElement> {
+  /**
+   * How wide the SVG will be
+   */
   width?: string;
+  /**
+   *  How tall the SVG will be
+   */
   height?: string;
   /**
    * Targets the svg's `fill` attribute, and is set to white by default

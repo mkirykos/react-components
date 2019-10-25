@@ -5,6 +5,9 @@ import { typography } from '../../../constants/typography';
 
 export interface IButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   contrastColor?: string;
+  /**
+   * ...
+   */
   fullWidth?: boolean;
   leftIcon?: JSX.Element;
   rightIcon?: JSX.Element;

@@ -6,12 +6,12 @@ export type ArrowDirection = 'up' | 'down' | 'left' | 'right' | number | string;
 
 export interface IArrowProps extends React.SVGProps<SVGSVGElement> {
   /**
-   * Targets the svg's `fill` attribute
+   * Targets the SVG `fill` attribute
    */
   color?: string;
 
   /**
-   * Arrow arrow direction
+   * Which direction the arrow points to
    */
   direction?: ArrowDirection;
 }

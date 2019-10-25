@@ -5,6 +5,9 @@ import { IField } from '../../../types';
 import { useFieldContext } from '../context';
 
 interface IFormCheckboxFieldProps extends Partial<IField> {
+  /**
+   * The "name" attribute applied to the native input element
+   */
   name: string;
 }
 

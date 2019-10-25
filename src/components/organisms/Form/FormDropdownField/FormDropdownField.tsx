@@ -4,6 +4,9 @@ import DropdownField, { IDropdownFieldProps } from '../../../molecules/DropdownF
 import { useFieldContext } from '../context';
 
 interface IFormDropdownFieldProps extends IDropdownFieldProps {
+  /**
+   * The "name" attribute applied to the native input element
+   */
   name: string;
 }
 

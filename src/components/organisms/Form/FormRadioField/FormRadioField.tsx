@@ -4,7 +4,13 @@ import RadioField, { IRadioField } from '../../../molecules/RadioField/RadioFiel
 import { useFieldContext } from '../context';
 
 interface IFormRadioFieldProps extends Partial<IRadioField> {
+  /**
+   * The "name" attribute applied to the native input element
+   */
   name: string;
+  /**
+   * The "value" attribute applied to the native input element
+   */
   value: string;
 }
 

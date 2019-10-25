@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import { TContainerSizes } from '../../types';
 
 export interface ISizedContainerProps extends React.HTMLAttributes<HTMLDivElement> {
+  /**
+   * The width constrain applied to the container
+   */
   size?: TContainerSizes;
 }
 

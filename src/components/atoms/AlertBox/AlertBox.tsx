@@ -4,6 +4,10 @@ import { colors } from '../../../constants/colors';
 import Alert from '../../icons/Alert/Alert';
 
 export interface IAlertBoxProps extends React.HTMLAttributes<HTMLElement> {
+  /**
+   * The icon you want to display on the top-left corner of the component.
+   * @default <AlertIcon />
+   */
   icon?: FC;
 }
 
@@ -20,9 +24,9 @@ const IconContainer = styled.div`
   margin-right: 16px;
 `;
 
-const AlertBox: FC<IAlertBoxProps> = ({ children, className, icon, style }) => (
+const AlertBox: FC<IAlertBoxProps> = ({ children, className, icon = <Alert />, style }) => (
   <Box className={className} style={style}>
-    <IconContainer>{icon || <Alert />}</IconContainer>
+    <IconContainer>{icon}</IconContainer>
     {children}
   </Box>
 );

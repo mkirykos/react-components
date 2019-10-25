@@ -6,13 +6,37 @@ export type TAlignSelf = 'flex-start' | 'center' | 'flex-end' | 'stretch' | 'aut
 export type TColWidth = number | 'fill' | 'auto' | 'hidden';
 
 export interface IFlexColProps {
+  /**
+   * A map to CSS Flexbox `align-items`
+   */
   align?: TAlignSelf;
+  /**
+   * ...
+   */
   cols?: number;
+  /**
+   * White-space ( in pixels ) applied to the left and right hand side of the column
+   */
   gutter?: number;
-  l?: TColWidth;
-  m?: TColWidth;
-  s?: TColWidth;
+  /**
+   * How many spaces in the grid the column should span in viewports > 1200px
+   */
   xl?: TColWidth;
+  /**
+   * How many spaces in the grid the column should span in viewports > 992px
+   */
+  l?: TColWidth;
+  /**
+   * How many spaces in the grid the column should span in viewports > 768px
+   */
+  m?: TColWidth;
+  /**
+   * How many spaces in the grid the column should span in viewports > 576px
+   */
+  s?: TColWidth;
+  /**
+   * How many spaces in the grid the column should span on any viewport
+   */
   xs?: TColWidth;
 }
 
@@ -77,7 +101,7 @@ const StyledFlexCol = styled.div<IFlexCol>`
       .map(breakpoint => getWidth(breakpoint, props[breakpoint], props.cols))}
 `;
 
-const FlexCol = props => <StyledFlexCol {...props} />;
+const FlexCol: React.FC<IFlexColProps> = props => <StyledFlexCol {...props} />;
 
 FlexCol.defaultProps = {
   align: 'auto',

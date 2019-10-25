@@ -1,16 +1,11 @@
 import { useState, useCallback, useMemo } from 'react';
+import { IFormProps } from '../../organisms/Form/Form/Form';
 
 type TValue = any;
 
 export type TValues = Record<string, TValue>;
 
 export type TErrors = Record<string, string | undefined>;
-
-export interface IUseFormProps {
-  initialValues: TValues;
-  onSubmit: (values: TValues) => void;
-  validate?: (values: TValues) => TErrors;
-}
 
 export interface IFieldProps {
   error: string | undefined;
@@ -26,7 +21,7 @@ export interface TUseFormValues {
   handleSubmit: (values: TValues) => void;
 }
 
-const useForm = ({ initialValues, validate, onSubmit }: IUseFormProps): TUseFormValues => {
+const useForm = ({ initialValues, validate, onSubmit }: IFormProps): TUseFormValues => {
   const [values, updateValues] = useState(initialValues);
   const [errors, updateErrors] = useState(validate ? validate(initialValues) : {});
   const [touched, updateTouched] = useState<Record<string, boolean>>({});

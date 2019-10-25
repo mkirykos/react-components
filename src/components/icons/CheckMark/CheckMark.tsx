@@ -3,7 +3,7 @@ import { colors } from '../../../constants/colors';
 
 export interface ICheckMarkProps extends React.SVGProps<SVGSVGElement> {
   /**
-   * Targets the svg's `fill` attribute
+   * Targets the SVG `fill` attribute
    */
   color?: string;
 }

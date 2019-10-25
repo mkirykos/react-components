@@ -1,6 +1,6 @@
 import React, { FC, HTMLAttributes } from 'react';
 
-import { IUseFormProps } from '../../hooks/useForm/useForm';
+import { IFormProps } from './Form/Form';
 
 import FormButton from './FormButton/FormButton';
 import FormTextField from './FormTextField/FormTextField';
@@ -19,7 +19,7 @@ interface IFormStatic {
   DropdownFilteredField: typeof FormDropdownFilteredField;
 }
 
-const FormWrapper: IFormStatic & FC<HTMLAttributes<HTMLFormElement> & IUseFormProps> = props => <Form {...props} />;
+const FormWrapper: IFormStatic & FC<HTMLAttributes<HTMLFormElement> & IFormProps> = props => <Form {...props} />;
 
 FormWrapper.Button = FormButton;
 FormWrapper.TextField = FormTextField;

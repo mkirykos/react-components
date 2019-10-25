@@ -2,7 +2,13 @@ import React from 'react';
 import { colors } from '../../../constants/colors';
 
 export interface IAlertProps {
+  /**
+   * Targets the SVG "fill" attribute
+   */
   fillColor?: string;
+  /**
+   * Width and height applied to the SVG
+   */
   size?: string;
 }
 

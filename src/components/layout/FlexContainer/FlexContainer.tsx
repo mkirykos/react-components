@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import grid from '../../../constants/grid';
 
 export interface IFlexContainerProps {
+  /**
+   * White-space applied to the left and right hand side of the container
+   */
   gutter?: number;
 }
 
@@ -15,8 +18,8 @@ const defaultProps: Partial<IFlexContainer> = {
 const StyledFlexContainer = styled.div<IFlexContainer>`
   width: 100%;
   max-width: 100%;
-  padding-right: ${props => props.gutter}px;
-  padding-left: ${props => props.gutter}px;
+  padding-right: ${({ gutter }) => gutter}px;
+  padding-left: ${({ gutter }) => gutter}px;
   margin-left: auto;
   margin-right: auto;
   @media (min-width: ${grid.breakpoints.s}px) {

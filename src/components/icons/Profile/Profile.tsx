@@ -3,15 +3,15 @@ import { colors } from '../../../constants/colors';
 
 export interface IProfileProps {
   /**
-   * The width and height size
+   * The width and height of the SVG
    */
   size?: string;
   /**
-   * Targets the svg's `fill` attribute
+   * Targets the SVG `fill` attribute
    */
   activeColor?: string;
   /**
-   * Targets the svg's `fill` attribute
+   * Targets the SVG `fill` attribute
    */
   inactiveColor?: string;
   /**

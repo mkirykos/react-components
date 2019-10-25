@@ -4,6 +4,9 @@ import TextField, { ITextFieldProps } from '../../../molecules/TextField/TextFie
 import { useFieldContext } from '../context';
 
 interface IFormTextFieldProps extends Partial<ITextFieldProps> {
+  /**
+   * The "name" attribute applied to the native input element
+   */
   name: string;
 }
 
