@@ -442,23 +442,31 @@
   !*** ./src/components/atoms/Card/Card.tsx ***!
   \********************************************/
 
+/*! exports provided: StyleguidstCard, default */
+
 /*!****************************************************!*\
   !*** ./src/components/atoms/Dropdown/Dropdown.tsx ***!
   \****************************************************/
 
-/*! exports provided: DEFAULT_COLOR, default, Option */
+/*! exports provided: DEFAULT_COLOR, Option, StyleguidistDropdown, default */
 
 /*!************************************************************!*\
   !*** ./src/components/atoms/ErrorMessage/ErrorMessage.tsx ***!
   \************************************************************/
 
+/*! exports provided: StyleguidistErrorMessage, default */
+
 /*!**************************************************!*\
   !*** ./src/components/atoms/Heading/Heading.tsx ***!
   \**************************************************/
 
+/*! exports provided: StyleguidistHeading, default */
+
 /*!********************************************************!*\
   !*** ./src/components/atoms/InputLabel/InputLabel.tsx ***!
   \********************************************************/
+
+/*! exports provided: StyleguidistInputLabel, default */
 
 /*!******************************************************!*\
   !*** ./src/components/atoms/InputText/InputText.tsx ***!
@@ -472,9 +480,13 @@
   !*** ./src/components/atoms/SidekickCard/SidekickCard.tsx ***!
   \************************************************************/
 
+/*! exports provided: StyleguidistSidekickCard, default */
+
 /*!**************************************************!*\
   !*** ./src/components/atoms/Spinner/Spinner.tsx ***!
   \**************************************************/
+
+/*! exports provided: StyleguidistSpinner, default */
 
 /*!********************************************!*\
   !*** ./src/components/atoms/Text/Text.tsx ***!
