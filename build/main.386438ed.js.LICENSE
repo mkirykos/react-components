@@ -112,6 +112,10 @@
   !*** ./node_modules/react-styleguidist/lib/loaders/examples-loader.js?displayName=ErrorMessage&file=.%2FErrorMessage.tsx&shouldShowDefaultExample=false!./src/components/atoms/ErrorMessage/ErrorMessage.md ***!
   \**************************************************************************************************************************************************************************************************************/
 
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/lib/loaders/examples-loader.js?displayName=ExpiryModal&file=.%2FExpiryModal.tsx&shouldShowDefaultExample=false!./src/components/molecules/ExpiryModal/ExpiryModal.md ***!
+  \**************************************************************************************************************************************************************************************************************/
+
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/lib/loaders/examples-loader.js?displayName=FlexCol&file=.%2FFlexCol.tsx&shouldShowDefaultExample=false!./src/components/layout/FlexCol/FlexCol.md ***!
   \*******************************************************************************************************************************************************************************************/
@@ -340,6 +344,10 @@
   !*** ./node_modules/react-styleguidist/lib/loaders/props-loader.js!./src/components/molecules/DropdownFiltered/DropdownFiltered.tsx ***!
   \**************************************************************************************************************************************/
 
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/lib/loaders/props-loader.js!./src/components/molecules/ExpiryModal/ExpiryModal.tsx ***!
+  \****************************************************************************************************************************/
+
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/lib/loaders/props-loader.js!./src/components/molecules/Help/Help.tsx ***!
   \**************************************************************************************************************/
@@ -559,6 +567,10 @@
 /*!************************************************************************!*\
   !*** ./src/components/molecules/DropdownFiltered/DropdownFiltered.tsx ***!
   \************************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./src/components/molecules/ExpiryModal/ExpiryModal.tsx ***!
+  \**************************************************************/
 
 /*!************************************************!*\
   !*** ./src/components/molecules/Help/Help.tsx ***!
@@ -792,7 +804,7 @@
   !*** ./src/index.ts ***!
   \**********************/
 
-/*! exports provided: grid, AlertBox, Badge, Button, Progress, Card, SidekickCard, Link, Dropdown, DropdownOption, DropdownFiltered, Spinner, ErrorMessage, InputLabel, InputText, Text, Heading, Modal, ZopaFooter, Help, CheckboxField, RadioField, TextField, DropdownField, Form, Navbar, Accordion, FlexContainer, FlexRow, FlexCol, SizedContainer, ArrowIcon, AlertIcon, CheckMarkIcon, ChevronIcon, ZopaIcon, HamburgerIcon, ProfileIcon, useAccordion, useForm, colors, typography, Fonts, GlobalStyles, maxMedia, minMedia */
+/*! exports provided: grid, AlertBox, Badge, Button, Progress, Card, SidekickCard, Link, Dropdown, DropdownOption, DropdownFiltered, Spinner, ErrorMessage, InputLabel, InputText, Text, Heading, Modal, ExpiryModal, ZopaFooter, Help, CheckboxField, RadioField, TextField, DropdownField, Form, Navbar, Accordion, FlexContainer, FlexRow, FlexCol, SizedContainer, ArrowIcon, AlertIcon, CheckMarkIcon, ChevronIcon, ZopaIcon, HamburgerIcon, ProfileIcon, useAccordion, useForm, colors, typography, Fonts, GlobalStyles, maxMedia, minMedia */
 
 /*!*****************************************************!*\
   !*** ./src/styleguide-components/ComponentsList.js ***!
