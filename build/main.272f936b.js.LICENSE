@@ -228,6 +228,10 @@
   !*** ./node_modules/react-styleguidist/lib/loaders/examples-loader.js?displayName=TextField&file=.%2FTextField.tsx&shouldShowDefaultExample=false!./src/components/molecules/TextField/TextField.md ***!
   \******************************************************************************************************************************************************************************************************/
 
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/lib/loaders/examples-loader.js?displayName=Tooltip&file=.%2FTooltip.tsx&shouldShowDefaultExample=false!./src/components/molecules/Tooltip/Tooltip.md ***!
+  \**********************************************************************************************************************************************************************************************/
+
 /*!**********************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/lib/loaders/examples-loader.js?displayName=ZopaFooter&file=.%2FZopaFooter.tsx&shouldShowDefaultExample=false!./src/components/molecules/ZopaFooter/ZopaFooter.md ***!
   \**********************************************************************************************************************************************************************************************************/
@@ -367,6 +371,10 @@
 /*!************************************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/lib/loaders/props-loader.js!./src/components/molecules/TextField/TextField.tsx ***!
   \************************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/react-styleguidist/lib/loaders/props-loader.js!./src/components/molecules/Tooltip/Tooltip.tsx ***!
+  \********************************************************************************************************************/
 
 /*!**************************************************************************************************************************!*\
   !*** ./node_modules/react-styleguidist/lib/loaders/props-loader.js!./src/components/molecules/ZopaFooter/ZopaFooter.tsx ***!
@@ -596,6 +604,10 @@
   !*** ./src/components/molecules/TextField/TextField.tsx ***!
   \**********************************************************/
 
+/*!******************************************************!*\
+  !*** ./src/components/molecules/Tooltip/Tooltip.tsx ***!
+  \******************************************************/
+
 /*!***********************************************************************!*\
   !*** ./src/components/molecules/ZopaFooter/FooterLink/FooterLink.tsx ***!
   \***********************************************************************/
@@ -804,7 +816,7 @@
   !*** ./src/index.ts ***!
   \**********************/
 
-/*! exports provided: grid, AlertBox, Badge, Button, Progress, Card, SidekickCard, Link, Dropdown, DropdownOption, DropdownFiltered, Spinner, ErrorMessage, InputLabel, InputText, Text, Heading, Modal, ExpiryModal, ZopaFooter, Help, CheckboxField, RadioField, TextField, DropdownField, Form, Navbar, Accordion, FlexContainer, FlexRow, FlexCol, SizedContainer, ArrowIcon, AlertIcon, CheckMarkIcon, ChevronIcon, ZopaIcon, HamburgerIcon, ProfileIcon, useAccordion, useForm, colors, typography, Fonts, GlobalStyles, maxMedia, minMedia */
+/*! exports provided: grid, AlertBox, Badge, Button, Progress, Card, SidekickCard, Link, Dropdown, DropdownOption, DropdownFiltered, Spinner, ErrorMessage, InputLabel, InputText, Text, Heading, Modal, ExpiryModal, ZopaFooter, Help, Tooltip, CheckboxField, RadioField, TextField, DropdownField, Form, Navbar, Accordion, FlexContainer, FlexRow, FlexCol, SizedContainer, ArrowIcon, AlertIcon, CheckMarkIcon, ChevronIcon, ZopaIcon, HamburgerIcon, ProfileIcon, useAccordion, useForm, colors, typography, Fonts, GlobalStyles, maxMedia, minMedia */
 
 /*!*****************************************************!*\
   !*** ./src/styleguide-components/ComponentsList.js ***!
