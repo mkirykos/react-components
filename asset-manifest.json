@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.js": "/zopaUK/react-components/build/main.db5aa53f.js",
+    "main.js": "/zopaUK/react-components/build/main.8b316c0d.js",
     "runtime-main.js": "/zopaUK/react-components/build/bundle.47e562ce.js",
-    "static/css/2.68d3bff2.chunk.css": "/zopaUK/react-components/static/css/2.68d3bff2.chunk.css",
-    "build/2.1df1c06d.js": "/zopaUK/react-components/build/2.1df1c06d.js",
-    "build/2.1df1c06d.js.LICENSE": "/zopaUK/react-components/build/2.1df1c06d.js.LICENSE",
+    "build/2.4f6ded52.js": "/zopaUK/react-components/build/2.4f6ded52.js",
+    "build/2.4f6ded52.js.LICENSE": "/zopaUK/react-components/build/2.4f6ded52.js.LICENSE",
     "index.html": "/zopaUK/react-components/index.html",
-    "precache-manifest.7499d1d553f91603f0b198e4aa850ea5.js": "/zopaUK/react-components/precache-manifest.7499d1d553f91603f0b198e4aa850ea5.js",
+    "precache-manifest.7ded6b3de9018b73e8f493f801a7c8bd.js": "/zopaUK/react-components/precache-manifest.7ded6b3de9018b73e8f493f801a7c8bd.js",
     "service-worker.js": "/zopaUK/react-components/service-worker.js",
-    "static/css/2.68d3bff2.chunk.css.map": "/zopaUK/react-components/static/css/2.68d3bff2.chunk.css.map",
     "static/media/alert-icon.svg": "/zopaUK/react-components/static/media/alert-icon.7670e921.svg",
     "static/media/chevron-down.svg": "/zopaUK/react-components/static/media/chevron-down.a16d4c67.svg",
     "static/media/red-warning.svg": "/zopaUK/react-components/static/media/red-warning.1cb043bc.svg",
@@ -19,8 +17,7 @@
   },
   "entrypoints": [
     "build/bundle.47e562ce.js",
-    "static/css/2.68d3bff2.chunk.css",
-    "build/2.1df1c06d.js",
-    "build/main.db5aa53f.js"
+    "build/2.4f6ded52.js",
+    "build/main.8b316c0d.js"
   ]
 }
