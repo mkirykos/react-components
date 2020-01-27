@@ -512,9 +512,35 @@
   !*** ./src/components/hooks/useAccordion/useAccordion.ts ***!
   \***********************************************************/
 
+/*!*****************************************************!*\
+  !*** ./src/components/hooks/useForm/FormContext.ts ***!
+  \*****************************************************/
+
+/*! exports provided: FormContext */
+
+/*!***********************************************!*\
+  !*** ./src/components/hooks/useForm/index.ts ***!
+  \***********************************************/
+
+/*! exports provided: useFieldContext, useFormContext, FormContext, useForm */
+
+/*!*********************************************************!*\
+  !*** ./src/components/hooks/useForm/useFieldContext.ts ***!
+  \*********************************************************/
+
+/*! exports provided: useFieldContext */
+
 /*!*************************************************!*\
   !*** ./src/components/hooks/useForm/useForm.ts ***!
   \*************************************************/
+
+/*! exports provided: useForm */
+
+/*!********************************************************!*\
+  !*** ./src/components/hooks/useForm/useFormContext.ts ***!
+  \********************************************************/
+
+/*! exports provided: useFormContext */
 
 /*!***********************************************************************!*\
   !*** ./src/components/hooks/useScrollThreshold/useScrollThreshold.ts ***!
@@ -700,24 +726,6 @@
   !*** ./src/components/organisms/Form/FormTextField/FormTextField.tsx ***!
   \***********************************************************************/
 
-/*!**************************************************************!*\
-  !*** ./src/components/organisms/Form/context/FormContext.ts ***!
-  \**************************************************************/
-
-/*!********************************************************!*\
-  !*** ./src/components/organisms/Form/context/index.ts ***!
-  \********************************************************/
-
-/*! exports provided: useFieldContext, useFormContext, FormContext */
-
-/*!******************************************************************!*\
-  !*** ./src/components/organisms/Form/context/useFieldContext.ts ***!
-  \******************************************************************/
-
-/*!*****************************************************************!*\
-  !*** ./src/components/organisms/Form/context/useFormContext.ts ***!
-  \*****************************************************************/
-
 /*!*************************************************!*\
   !*** ./src/components/organisms/Form/index.tsx ***!
   \*************************************************/
@@ -816,7 +824,7 @@
   !*** ./src/index.ts ***!
   \**********************/
 
-/*! exports provided: grid, AlertBox, Badge, Button, Progress, Card, SidekickCard, Link, Dropdown, DropdownOption, DropdownFiltered, Spinner, ErrorMessage, InputLabel, InputText, Text, Heading, Modal, ExpiryModal, ZopaFooter, Help, Tooltip, CheckboxField, RadioField, TextField, DropdownField, Form, Navbar, Accordion, FlexContainer, FlexRow, FlexCol, SizedContainer, ArrowIcon, AlertIcon, CheckMarkIcon, ChevronIcon, ZopaIcon, HamburgerIcon, ProfileIcon, useAccordion, useForm, colors, typography, Fonts, GlobalStyles, maxMedia, minMedia */
+/*! exports provided: grid, AlertBox, Badge, Button, Progress, Card, SidekickCard, Link, Dropdown, DropdownOption, DropdownFiltered, Spinner, ErrorMessage, InputLabel, InputText, Text, Heading, Modal, ExpiryModal, ZopaFooter, Help, Tooltip, CheckboxField, RadioField, TextField, DropdownField, Form, Navbar, Accordion, FlexContainer, FlexRow, FlexCol, SizedContainer, ArrowIcon, AlertIcon, CheckMarkIcon, ChevronIcon, ZopaIcon, HamburgerIcon, ProfileIcon, useAccordion, colors, typography, Fonts, GlobalStyles, useFieldContext, useFormContext, FormContext, maxMedia, minMedia, useForm */
 
 /*!*****************************************************!*\
   !*** ./src/styleguide-components/ComponentsList.js ***!
