@@ -464,7 +464,7 @@
   !*** ./src/components/atoms/Dropdown/Dropdown.tsx ***!
   \****************************************************/
 
-/*! exports provided: DEFAULT_COLOR, Option, StyleguidistDropdown, default */
+/*! exports provided: DEFAULT_COLOR, Option, default */
 
 /*!************************************************************!*\
   !*** ./src/components/atoms/ErrorMessage/ErrorMessage.tsx ***!
