@@ -1,14 +1,26 @@
 {
-  "main.js": "/build/main.c8124674.js",
-  "build/0.3d9b260c.js": "/build/0.3d9b260c.js",
-  "runtime~main.js": "/build/bundle.5ec4d441.js",
-  "static/media/alert-icon.svg": "/static/media/alert-icon.7670e921.svg",
-  "static/media/red-warning.svg": "/static/media/red-warning.1cb043bc.svg",
-  "static/media/triumph-icon.svg": "/static/media/triumph-icon.6539411e.svg",
-  "static/media/valid-icon.svg": "/static/media/valid-icon.4593b273.svg",
-  "static/media/white-check-mark.svg": "/static/media/white-check-mark.1c85fd4b.svg",
-  "static/media/chevron-down.svg": "/static/media/chevron-down.a16d4c67.svg",
-  "build/main.c8124674.js.LICENSE.txt": "/build/main.c8124674.js.LICENSE.txt",
-  "build/0.3d9b260c.js.LICENSE.txt": "/build/0.3d9b260c.js.LICENSE.txt",
-  "index.html": "/index.html"
+  "files": {
+    "main.js": "/zopaUK/react-componentsbuild/main.2e639cd7.js",
+    "runtime-main.js": "/zopaUK/react-componentsbuild/bundle.5339aa43.js",
+    "static/css/2.cbe97408.chunk.css": "/zopaUK/react-componentsstatic/css/2.cbe97408.chunk.css",
+    "build/2.46bc0097.js": "/zopaUK/react-componentsbuild/2.46bc0097.js",
+    "build/2.46bc0097.js.LICENSE.txt": "/zopaUK/react-componentsbuild/2.46bc0097.js.LICENSE.txt",
+    "index.html": "/zopaUK/react-componentsindex.html",
+    "precache-manifest.1bcdffacbbed38042f005d009cf0545d.js": "/zopaUK/react-componentsprecache-manifest.1bcdffacbbed38042f005d009cf0545d.js",
+    "service-worker.js": "/zopaUK/react-componentsservice-worker.js",
+    "static/css/2.cbe97408.chunk.css.map": "/zopaUK/react-componentsstatic/css/2.cbe97408.chunk.css.map",
+    "static/media/alert-icon.svg": "/zopaUK/react-componentsstatic/media/alert-icon.7670e921.svg",
+    "static/media/chevron-down.svg": "/zopaUK/react-componentsstatic/media/chevron-down.a16d4c67.svg",
+    "static/media/red-warning.svg": "/zopaUK/react-componentsstatic/media/red-warning.1cb043bc.svg",
+    "static/media/triumph-icon.svg": "/zopaUK/react-componentsstatic/media/triumph-icon.6539411e.svg",
+    "static/media/valid-icon.svg": "/zopaUK/react-componentsstatic/media/valid-icon.4593b273.svg",
+    "static/media/white-check-mark.svg": "/zopaUK/react-componentsstatic/media/white-check-mark.1c85fd4b.svg",
+    "static/media/zopaLogo.svg": "/zopaUK/react-componentsstatic/media/zopaLogo.8c2a94ba.svg"
+  },
+  "entrypoints": [
+    "build/bundle.5339aa43.js",
+    "static/css/2.cbe97408.chunk.css",
+    "build/2.46bc0097.js",
+    "build/main.2e639cd7.js"
+  ]
 }
